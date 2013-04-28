@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Jekyll Bootstrap</title>
+ <link href="http://username.github.io/" rel="self"/>
+ <link href="http://username.github.io"/>
+ <updated>2013-04-28T16:49:34+08:00</updated>
+ <id>http://username.github.io</id>
+ <author>
+   <name>Name Lastname</name>
+   <email>blah@email.test</email>
+ </author>
+
+ 
+ <entry>
+   <title>makrdown语法学习笔记</title>
+   <link href="http://username.github.io/2013/04/28/makrdown-syntax-learn"/>
+   <updated>2013-04-28T00:00:00+08:00</updated>
+   <id>http://username.github.io/2013/04/28/makrdown-syntax-learn</id>
+   <content type="html">&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://yandex.st/highlightjs/7.3/styles/default.min.css&quot;&gt;&lt;/p&gt;
+
+&lt;script src=&quot;http://yandex.st/highlightjs/7.3/highlight.min.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;h1&gt;总体内容&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;标题&lt;/li&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强调&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;有序列表&lt;/li&gt;
+&lt;li&gt;代码块&lt;/li&gt;
+&lt;li&gt;区间引用&lt;/li&gt;
+&lt;li&gt;超链接/图片&lt;/li&gt;
+&lt;li&gt;相关资源&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;有序列表&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;有序列表可以用一个数字加一个点号&lt;/li&gt;
+&lt;li&gt;数字可以不按顺序&lt;/li&gt;
+&lt;li&gt;像这条，前面写的是2，但markdown分自动转换成3&lt;/li&gt;
+&lt;li&gt;无序列表前面可以用* 或+ 或-
+
+&lt;ul&gt;
+&lt;li&gt;列表还可以嵌套&lt;/li&gt;
+&lt;li&gt;这两个就是嵌套的列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;代码块&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;//代码前面加四个空格会自动成代码块
+#include &amp;lt;stdio.h&amp;gt; 
+int main () {
+    printf(&quot; hello world \n&quot;) ;
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;区间引用Blockquotes&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;引用区间就是有前面加一个&gt;号&lt;br/&gt;
+区间里同一个段落前面的还可以懒惰地省掉&lt;/p&gt;
+
+&lt;h3&gt;区间引用还可以有标题【这是一个标题】。&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt; 同样可以有列表。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; 这是第二行列表项。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;//也可以有代码块，前面与&amp;gt;有一个空格外，还需要加2*4个空格或2个tab
+return shell_exec(&quot;echo $input | $markdown_script&quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;超链接/图片链接&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;链接有两种方式&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; 直接一个方括号后接一个圆括号。
+如 &lt;a href=&quot;http://wowubuntu.com/markdown/&quot; title=&quot;wowubuntu&quot;&gt;markdown语法学习网站&lt;/a&gt;  &lt;em&gt;这里面的链接怎么打不开呢？&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt; 两个方括号，第一个是链接名称，第二个是地址引用，地址可以在后面任意一个地方标注。&lt;br/&gt;
+如：&lt;a href=&quot;http://mahua.jser.me/&quot; title=&quot;mahua&quot;&gt;markdown在线编辑器&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;图片链接的方式与超链接相似，只是在前面加一个！&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt; 不过workflowy里好像不能显示图片 &lt;img src=&quot;http://www.whu.edu.cn/img/main.jpg&quot; alt=&quot;武汉大学&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;相关资源&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;请&lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt; &quot;&lt;strong&gt;markdown 语法&lt;/strong&gt;&quot; &quot;&lt;strong&gt;markdown 在线编辑器&lt;/strong&gt;&quot;&lt;/li&gt;
+&lt;li&gt;推荐网站
+
+&lt;ul&gt;
+&lt;li&gt;[markdown语法学习网站] &lt;a href=&quot;http://wowubuntu.com/markdown/&quot;&gt;http://wowubuntu.com/markdown/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;markdown在线编辑器&lt;a href=&quot;http://mahua.jser.me/&quot;&gt;http://mahua.jser.me/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;让workflowy支持markdown语法的Chrome插件 .&lt;a href=&quot;https://chrome.google.com/webstore/detail/workflowy-for-coders/hogpngcijkfmbfijfkaapeejhijipddp&quot;&gt;https://chrome.google.com/webstore/detail/workflowy-for-coders/hogpngcijkfmbfijfkaapeejhijipddp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>搭建github+jekyll静态博客所踩过的坑</title>
+   <link href="http://username.github.io/2013/04/28/hello-world"/>
+   <updated>2013-04-28T00:00:00+08:00</updated>
+   <id>http://username.github.io/2013/04/28/hello-world</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;终于把本地的jekyll搭建成功了，其实很简单的一个过程，让我弄了一下午加一晚上，这里记录下踩过的坑。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;jekyll的安装。jekyll是一个ruby写的静态博客转换的程序，windows下配置ruby的环境，需要先安装ruby和devkit，网上其实有很多教程。就是先安装ruby，再在命令行中安装devkit。devkit是一个模拟unix环境的工具，受传统思想影响，我一直在cygwin的命令行中操作，结果无数次失败，出现莫名其妙的原因。后来才想到，那些教程里并没说是在cygwin中，应该就是在dos命令行中。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;第二个问题是版本问题。一向以为最新版本就是最好的，结果用ruby2.0安装好jekyll后，发现启动时一直失败，后网上看到别人说是2.0的原因，选用ruby1.9.3就OK了。版本问题，再次上这个当，以后一定要注意。特别是自己不熟悉的东西，配置时一定要选用对的版本。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;jekyll终于安装成功也可以运行了，可以运行后打开localhost:4000出现403错误，本来以为权限问题，其它是我的jekyll网站代码有问题，导致解析失败，所以_site/下并没有生成静态页面。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>

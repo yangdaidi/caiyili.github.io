@@ -6,7 +6,8 @@ category:
 tags: []
 ---
 {% include JB/setup %}
-
+<link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
 
 # 总体内容 #
 * 标题

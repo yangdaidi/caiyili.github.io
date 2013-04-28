@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    **
+    *
+    * Author:         PIZn
+    * Contact:        pizner@gmail.com
+    * Theme Name:     Block Rude
+    * Version:        1.0
+    *
+    **
+  -->
+  <meta charset="utf-8" />
+  <title>搭建github+jekyll静态博客所踩过的坑 | Black Cube Theme</title>
+  <meta name="generator" content="Jekyll" />
+  <meta name="author" content="PIZn" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+  <link rel="shortcut icon" href="/blog/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header class="head">
+	<div class="header fn-clear">
+		<section class="header-cnt fn-clear">
+			<div class="logo">
+				<div class="logo-cnt">
+				 	<h1><a href="/">PIZn</a></h1>
+				 	<h2>Phosphorus,Iodine & Zinc.</h2>
+				</div>
+			</div>
+			<nav class="nav">
+				<ul>
+					<li><a href="/" >Home</a></li>
+					<li><a href="/archives.html" >Archives</a></li>
+					<li><a href="/contact.html" >About & Contact</a></li>
+					<li><a href="/atom.xml" target="_blank" >Rss</a></li>
+				</ul>
+			</nav>
+		</section>
+	</div>
+</header> 
+  <section id="content">
+    <article id="contenter">
+      <section class="content">
+	<div class="content-cnt fn-clear">
+		<div class="main fn-clear">
+			<article class="entry">
+				<h1 class="title">搭建github+jekyll静态博客所踩过的坑</h1>
+               	<p class="meta"><time class="date" pubdate="2013-04-28">28 Apr 2013</time> By <a href="/contact.html" class="author" title="author">PIZn</a><g:plusone size="small"></g:plusone></p>
+               	<p class="description"></p>
+ 			 	<p>Included file 'JB/setup' not found in _includes directory</p>
+
+<ul>
+<li><p>终于把本地的jekyll搭建成功了，其实很简单的一个过程，让我弄了一下午加一晚上，这里记录下踩过的坑。</p></li>
+<li><p>jekyll的安装。jekyll是一个ruby写的静态博客转换的程序，windows下配置ruby的环境，需要先安装ruby和devkit，网上其实有很多教程。就是先安装ruby，再在命令行中安装devkit。devkit是一个模拟unix环境的工具，受传统思想影响，我一直在cygwin的命令行中操作，结果无数次失败，出现莫名其妙的原因。后来才想到，那些教程里并没说是在cygwin中，应该就是在dos命令行中。</p></li>
+<li><p>第二个问题是版本问题。一向以为最新版本就是最好的，结果用ruby2.0安装好jekyll后，发现启动时一直失败，后网上看到别人说是2.0的原因，选用ruby1.9.3就OK了。版本问题，再次上这个当，以后一定要注意。特别是自己不熟悉的东西，配置时一定要选用对的版本。</p></li>
+<li><p>jekyll终于安装成功也可以运行了，可以运行后打开localhost:4000出现403错误，本来以为权限问题，其它是我的jekyll网站代码有问题，导致解析失败，所以_site/下并没有生成静态页面。</p></li>
+</ul>
+
+
+                <nav class="pagination-link">
+                    
+                    <a class="prev" href="/2012/04/26/hello-world.html" rel="bookmark">&laquo;&nbsp;Jekyll Blog 主题 Black Cube...</a>
+                    
+                    
+                    <a class="next" href="/2013/04/28/makrdown-syntax-learn.html" rel="bookmark">makrdown语法学习笔记&nbsp;&raquo;</a>
+                    
+                 </nav>
+			</article><!-- .entry -->		
+		</div>
+		<div class="aside fn-clear">
+			<div class="box fn-clear">
+	<img src="/images/psb.jpg" alt="about theme"/>
+	<p>I am PIZn.I love all kinds of design, attention to the Internet dynamic, dedicated web front development, learn UI and UED.</p>
+</div>
+			<div class="box fn-clear">
+	<h3 class="title">GitHub Project</h3>
+	<ul>
+		<li>&#8227;<a href="#">blog</a></li>
+		<li>&#8227;<a href="#">ColorCode</a></li>
+		<li>&#8227;<a href="#">pizn.github.com</a></li>
+		<li>&#8227;<a href="#">Alice</a></li>
+	</ul>
+</div>
+			<div class="box fn-clear">
+	<h3 class="title">Black Cube Theme</h3>
+	<p>This is a jekyll blog theme for you.</p>
+</div>
+		</div>
+	</div>
+</section>
+    </article>
+  </section>
+    <footer class="foot">
+	<div class="foot-cnt fn-clear">
+		<div class="foot-cnt-det fn-clear">
+			<article class="blogroll">
+				<h4 class="title">Blogroll</h4>
+				<ul>
+					<li>&#8227;<a href="http://www.pizn.me">www.pizn.me</a></li>
+					<li>&#8227;<a href="http://www.pizn.net">www.pizn.net</a></li>
+					<li>&#8227;<a href="http://www.jekyllrb.com">www.jekyllrb.com</a></li>
+				</ul>
+			</article>
+			<article class="about">
+				<h4 class="title">About US</h4>
+				<p>I am PIZn.I love all kinds of design, attention to the Internet dynamic, dedicated web front development, learn UI and UED.</p>
+			</article>
+			<article class="follow">
+				<h4 class="title">Follow Me</h4>
+				<ul>
+					<li><a href="https://github.com/pizn" class="ico-github" target="_blank">github</a></li>
+					<li><a href="/atom.xml" class="ico-rss" target="_blank">rss</a></li>
+					<li><a href="#" class="ico-linkedin">linkedin</a></li>
+					<li><a href="#" class="ico-google">google</a></li>
+					<li><a href="#" class="ico-flickr">flickr</a></li>
+					<li><a href="http://www.twitter.com/piznlin" class="ico-twitter">twitter</a></li>
+					<li><a href="#" class="ico-facebook">facebook</a></li>
+					<li><a href="#" class="ico-vimeo">vimeo</a></li>
+				</ul>
+			</article>
+		</div>
+	</div>
+	<div class="foot-btn">
+		<div class="foot-btn-det">
+			<p class="copyright">Copyright © 2011–2012 PIZn All rights reserved.</p>
+			<p class="author">Powered by <a href="http://www.jekyllrb.com">Jekyll</a>. Design by <a href="http://www.pizn.net">PIZn</a>.</p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

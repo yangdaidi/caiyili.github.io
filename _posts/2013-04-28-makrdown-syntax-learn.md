@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "makrdown语法学习笔记"
-description: ""
-category: 
-tags: []
+description: "markdown 学习过程中的一些笔记"
+category: note
+tags: [markdown]
 ---
 {% include JB/setup %}
 <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">

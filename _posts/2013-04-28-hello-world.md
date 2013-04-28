@@ -2,14 +2,14 @@
 layout: post
 title: "搭建github+jekyll静态博客所踩过的坑"
 description: ""
-category: 
-tags: []
+category: diary
+tags: [jekyll, github]
 ---
 {% include JB/setup %}
 
 
 
-- 终于把本地的jekyll搭建成功了，其实很简单的一个过程，让我弄了一下午加一晚上，这里记录下踩过的坑。
+终于把本地的jekyll搭建成功了，其实很简单的一个过程，让我弄了一下午加一晚上，这里记录下踩过的坑。
 
 - jekyll的安装。jekyll是一个ruby写的静态博客转换的程序，windows下配置ruby的环境，需要先安装ruby和devkit，网上其实有很多教程。就是先安装ruby，再在命令行中安装devkit。devkit是一个模拟unix环境的工具，受传统思想影响，我一直在cygwin的命令行中操作，结果无数次失败，出现莫名其妙的原因。后来才想到，那些教程里并没说是在cygwin中，应该就是在dos命令行中。
 

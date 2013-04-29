@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2013-04-28T17:18:28+08:00</updated>
- <id>http://username.github.io</id>
+ <title>空心菜</title>
+ <link href="http://caiyili.github.io/" rel="self"/>
+ <link href="http://caiyili.github.io"/>
+ <updated>2013-04-30T02:09:57+08:00</updated>
+ <id>http://caiyili.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>yellicai</name>
+   <email>cscaiyili@gmail.com</email>
  </author>
 
  
  <entry>
    <title>makrdown语法学习笔记</title>
-   <link href="http://username.github.io/note/2013/04/28/makrdown-syntax-learn"/>
+   <link href="http://caiyili.github.io/note/2013/04/28/makrdown-syntax-learn"/>
    <updated>2013-04-28T00:00:00+08:00</updated>
-   <id>http://username.github.io/note/2013/04/28/makrdown-syntax-learn</id>
+   <id>http://caiyili.github.io/note/2013/04/28/makrdown-syntax-learn</id>
    <content type="html">&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://yandex.st/highlightjs/7.3/styles/default.min.css&quot;&gt;&lt;/p&gt;
 
 &lt;script src=&quot;http://yandex.st/highlightjs/7.3/highlight.min.js&quot;&gt;&lt;/script&gt;
@@ -34,6 +34,9 @@
 &lt;li&gt;超链接/图片&lt;/li&gt;
 &lt;li&gt;相关资源&lt;/li&gt;
 &lt;/ul&gt;
+
+
+&lt;!-- more --&gt;
 
 
 &lt;h2&gt;有序列表&lt;/h2&gt;
@@ -118,13 +121,20 @@ return shell_exec(&quot;echo $input | $markdown_script&quot;);
  
  <entry>
    <title>搭建github+jekyll静态博客所踩过的坑</title>
-   <link href="http://username.github.io/diary/2013/04/28/hello-world"/>
+   <link href="http://caiyili.github.io/diary/2013/04/28/hello-world"/>
    <updated>2013-04-28T00:00:00+08:00</updated>
-   <id>http://username.github.io/diary/2013/04/28/hello-world</id>
+   <id>http://caiyili.github.io/diary/2013/04/28/hello-world</id>
    <content type="html">&lt;p&gt;终于把本地的jekyll搭建成功了，其实很简单的一个过程，让我弄了一下午加一晚上，这里记录下踩过的坑。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;jekyll的安装。jekyll是一个ruby写的静态博客转换的程序，windows下配置ruby的环境，需要先安装ruby和devkit，网上其实有很多教程。就是先安装ruby，再在命令行中安装devkit。devkit是一个模拟unix环境的工具，受传统思想影响，我一直在cygwin的命令行中操作，结果无数次失败，出现莫名其妙的原因。后来才想到，那些教程里并没说是在cygwin中，应该就是在dos命令行中。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;jekyll的安装。jekyll是一个ruby写的静态博客转换的程序，windows下配置ruby的环境，需要先安装ruby和devkit，网上其实有很多教程。就是先安装ruby，再在命令行中安装devkit。devkit是一个模拟unix环境的工具，受传统思想影响，我一直在cygwin的命令行中操作，结果无数次失败，出现莫名其妙的原因。后来才想到，那些教程里并没说是在cygwin中，应该就是在dos命令行中。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;!-- more --&gt;
+
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;第二个问题是版本问题。一向以为最新版本就是最好的，结果用ruby2.0安装好jekyll后，发现启动时一直失败，后网上看到别人说是2.0的原因，选用ruby1.9.3就OK了。版本问题，再次上这个当，以后一定要注意。特别是自己不熟悉的东西，配置时一定要选用对的版本。&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;jekyll终于安装成功也可以运行了，可以运行后打开localhost:4000出现403错误，本来以为权限问题，其它是我的jekyll网站代码有问题，导致解析失败，所以_site/下并没有生成静态页面。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -134,9 +144,9 @@ return shell_exec(&quot;echo $input | $markdown_script&quot;);
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://caiyili.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://caiyili.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 

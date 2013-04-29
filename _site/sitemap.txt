@@ -1,13 +1,14 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://caiyili.github.io/about.html
+http://caiyili.github.io/archive.html
+http://caiyili.github.io/atom.xml
+http://caiyili.github.io/categories.html
+http://caiyili.github.io/index.html
+http://caiyili.github.io/pages.html
+http://caiyili.github.io/rss.xml
+http://caiyili.github.io/sitemap.txt
+http://caiyili.github.io/tags.html
 
-http://username.github.io/note/2013/04/28/makrdown-syntax-learn
-http://username.github.io/diary/2013/04/28/hello-world
-http://username.github.io/lessons/2011/12/29/jekyll-introduction
+http://caiyili.github.io/note/2013/04/28/makrdown-syntax-learn
+http://caiyili.github.io/diary/2013/04/28/hello-world
+http://caiyili.github.io/lessons/2011/12/29/jekyll-introduction

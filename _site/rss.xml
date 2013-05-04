@@ -5,10 +5,38 @@
         <description>空心菜 - yellicai</description>
         <link>http://caiyili.github.io</link>
         <link>http://caiyili.github.io</link>
-        <lastBuildDate>2013-04-30T02:09:57+08:00</lastBuildDate>
-        <pubDate>2013-04-30T02:09:57+08:00</pubDate>
+        <lastBuildDate>2013-05-04T19:00:14+08:00</lastBuildDate>
+        <pubDate>2013-05-04T19:00:14+08:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Hadoop根据什么来选择从哪个数据结点提取数据</title>
+                <description>&lt;p&gt;今天在为我的项目画UML图时，无意中发现了一个困扰了我很久的问题——Hadoop怎样选择从哪个节点获取数据&lt;br/&gt;
+在我的hadoop和lucene整合项目中，采用的方法是利用MapReduce编程模型来控制并发的lucene查询，在每个datanode上
+都部署一个完整的lucene索引，然后根据配置文件，让每个datanode上的TaskTracker读取本地的lucene索引，结果以
+&lt;code&gt;&amp;lt;score,resultmap&amp;gt;&lt;/code&gt;的方式传给&lt;code&gt;map&lt;/code&gt;，再让MapReduce做聚合过程。&lt;br/&gt;
+可是怎样保证&lt;code&gt;map&lt;/code&gt;任务只读取本地的lucene索引呢？一直以为&lt;code&gt;map&lt;/code&gt;从哪个节点取数据是不可以控的，今天无意中发现原来
+&lt;code&gt;InputSplit&lt;/code&gt;提供的一个接口&lt;code&gt;getLocations()&lt;/code&gt;就是决定切分的数据来自哪些数据结点列表的。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+</description>
+                <link>http://caiyili.github.io/note/2013/05/04/how-does-hadoop-select-the-datanode-to-get-the-data</link>
+                <guid>http://caiyili.github.io/note/2013/05/04/how-does-hadoop-select-the-datanode-to-get-the-data</guid>
+                <pubDate>2013-05-04T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>实现博文预览功能</title>
+                <description>&lt;p&gt;今天参照&lt;a href=&quot;http://jolestar.com/&quot;&gt;午夜咖啡&lt;/a&gt;实现了预览的功能。&lt;br/&gt;
+主要思想是在发布的博文中加入一个&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;的标签，它不会影响输出。然后在&lt;code&gt;post.content&lt;/code&gt;用&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;来&lt;code&gt;split&lt;/code&gt;
+其实实现思想还是蛮简单的，我怎么开始就没想到呢？&lt;/p&gt;
+</description>
+                <link>http://caiyili.github.io/note/2013/04/30/implement-summary-function</link>
+                <guid>http://caiyili.github.io/note/2013/04/30/implement-summary-function</guid>
+                <pubDate>2013-04-30T00:00:00+08:00</pubDate>
+        </item>
 
         <item>
                 <title>makrdown语法学习笔记</title>
@@ -151,6 +179,9 @@ Directly following the intro we'll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll
 
 &lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
 dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as &quot;a simple, blog aware, static site generator&quot;.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
 
 &lt;h3&gt;Examples&lt;/h3&gt;
 

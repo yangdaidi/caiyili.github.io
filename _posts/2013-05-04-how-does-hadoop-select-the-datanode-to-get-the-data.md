@@ -3,7 +3,7 @@ layout: post
 title: "Hadoop根据什么来选择从哪个数据结点提取数据"
 description: ""
 category: note
-tags: [hadoop,MapReduce]
+tags: [hadoop, MapReduce]
 ---
 {% include JB/setup %}
 
